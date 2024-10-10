@@ -1,0 +1,39 @@
+.banner_section {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    height: 800px; 
+    overflow: hidden; 
+    
+}
+
+
+
+.banner-image {
+    background-image: url(C:\Users\gurba\Desktop\reactApp\Fashion_App\fashion_app\public\alyssa-strohmann-TS--uNw-JqE-unsplash.jpg);
+    background-size: cover;
+    background-position: center; 
+    width: 100%;
+    height: 100%;
+}
+  .container {
+
+  position: absolute;
+  top: 50%; 
+  left: 80%; 
+  transform: translate(-50%, -50%); 
+  background-color: #ffffff; 
+  color: #000000; 
+  font-size: 20px; 
+  text-align: center;
+  margin: auto;
+  height: 300px;
+  width: 450px;
+  padding: 30px;
+
+
+
+
+
+  }

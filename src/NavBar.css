@@ -1,0 +1,41 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #333;
+    color: white;
+}
+
+.buttons {
+    display: flex;
+    gap: 1rem;
+}
+
+.nav-button {
+    padding: 0.5rem 1rem;
+    background-color: #555;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.title {
+    flex-grow: 1;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.links {
+    display: flex;
+    gap: 1rem;
+}
+
+.links a {
+    color: white;
+    text-decoration: none;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
