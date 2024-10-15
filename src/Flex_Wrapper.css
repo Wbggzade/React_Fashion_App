@@ -1,109 +1,15 @@
-.slider-mobile-gutter {
-    border-bottom: 0px solid rgb(229, 231, 235);
-    border-left: 0px solid rgb(229, 231, 235);
-    border-right: 0px solid rgb(229, 231, 235);
-    border-top: 0px solid rgb(229, 231, 235);
-    box-sizing: border-box;
-    color: rgba(18, 18, 18, 0.75);
-    font-family: Helvetica, "Helvetica Neue", Arial, "Lucida Grande", sans-serif;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    margin: 0;
-    max-width: 1600px;
-    padding: 100px 50px 44px;
+.flexbox-container {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+    height: 600px;
+    width: auto;
+    padding-top: 20px;
+    padding: 30px;
+    background-color: rgb(255, 255, 255);
     position: relative;
-  }
-  
-  .homepage_collectiongrid {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  .collection-list__item {
-    position: relative;
-    width: calc(33.333% - 20px); /* Adjust for spacing */
-    margin: 0 10px;
-    overflow: hidden;
-    transition: transform 0.3s;
-  }
-  
-  .card-wrapper {
-    text-align: center;
-  }
-  
-  .card {
-    border: 1px solid rgba(229, 231, 235, 0.5);
-    transition: transform 0.3s;
-  }
-  
-  .card__media img {
-    width: 100%;
-    height: auto;
-    transition: transform 0.3s; /* For zoom effect */
-  }
-  
-  .card__content {
-    padding: 20px;
-  }
-  
-  .card__heading {
-    font-size: 1.2em;
-    margin: 10px 0;
-  }
-  
-  .card__caption {
-    font-size: 0.9em;
-    color: rgba(18, 18, 18, 0.6);
-  }
-  
-  .wrapper_content_collectionlist {
-    padding: 20px;
-    text-align: center;
-  }
-  
-  .collection-list__item:hover .card__media img {
-    transform: scale(1.1); /* Zoom effect on hover */
-  }
-  
-  .collection-list__item:hover {
-    transform: translateY(-5px); /* Lift effect on hover */
-  }
-  
-  .slider-buttons {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-  }
-  
-  .slider-button {
-    background: none;
-    border: none;
-    cursor: pointer;
-    margin: 0 10px;
-  }
-  
-  .slider-counter {
-    display: flex;
-    align-items: center;
-    font-size: 14px;
-  }
-  
-  /* Ensuring items don't stack under each other */
-  @media (max-width: 768px) {
-    .collection-list__item {
-      width: calc(50% - 20px); /* Two items on smaller screens */
-    }
-  }
-  
-  @media (max-width: 480px) {
-    .collection-list__item {
-      width: 100%; /* One item on extra small screens */
-      margin: 0; /* Reset margin for single item */
-    }
-  }
-  
+}
+
+
+
+
