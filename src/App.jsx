@@ -1,22 +1,22 @@
 import React from 'react';
-import './NavBar';
-import './App.css';
-import './banner';
+import './layout.css'; 
 import Navbar from './NavBar';
 import Banner from './banner';
-import  FlexWrapper from './FlexWrapper';
+import Content1 from './Content1';
+import Content2 from './Content2';
+import Footer from './Footer';
 
-
-
-function App() {
-  return (
-    <div>
-      <Navbar />
-      <Banner />
-      <FlexWrapper />
-        
-    </div>
-  );
-}
+const App = () => {
+    return (
+        <div className="container">
+            <Navbar />
+            <Banner />
+            <Content1 />
+            <Content2 />
+            <Footer />
+        </div>
+    );
+};
 
 export default App;
+
